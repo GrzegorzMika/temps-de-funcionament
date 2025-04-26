@@ -1,0 +1,11 @@
+services:
+  tdf:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: tdf
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./example-config.yaml:/etc/temps_de_funcionament/config.yaml:ro

@@ -1,0 +1,15 @@
+services:
+  - name: Google
+    url: https://www.google.com
+    allowed_codes:
+      - 200
+    periodSeconds: 5
+    maxFailures: 3
+    slackChannel: C08PLDSDLPQ
+  - name: NonExistent
+    url: https://google.com/nonexistent
+    allowed_codes:
+      - 200
+    periodSeconds: 5
+    maxFailures: 3
+    slackChannel: C08PLDSDLPQ
