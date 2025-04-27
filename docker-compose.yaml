@@ -1,8 +1,6 @@
 services:
   tdf:
-    build: 
-      context: .
-      dockerfile: Dockerfile
+    image: gregmika/temps_de_funcionament:v1.1-amd64
     container_name: tdf
     restart: unless-stopped
     env_file:

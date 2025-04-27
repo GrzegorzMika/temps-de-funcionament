@@ -5,11 +5,11 @@ services:
       - 200
     periodSeconds: 5
     maxFailures: 3
-    slackChannel: C08PLDSDLPQ
+    slackChannel: C08PLDSDURB
   - name: NonExistent
     url: https://google.com/nonexistent
     allowed_codes:
       - 200
     periodSeconds: 5
     maxFailures: 3
-    slackChannel: C08PLDSDLPQ
+    slackChannel: C08PLDSDURB

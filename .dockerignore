@@ -3,3 +3,5 @@
 example-config.yaml
 LICENSE
 README.md
+Makefile
+docker-compose.yaml
